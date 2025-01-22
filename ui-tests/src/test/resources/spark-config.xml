@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- REPORT THEME -->
+        <!-- STANDARD, DARK -->
+        <theme>STANDARD</theme>
+
+        <!-- DOCUMENT ENCODING -->
+        <!-- DEFAULTS TO UTF8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- PROTOCOL FOR SCRIPT AND STYLESHEET -->
+        <!-- DEFAULTS TO HTTPS -->
+        <!-- HTTP, HTTPS -->
+        <protocol>HTTPS</protocol>
+
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- OFFLINE REPORT -->
+        <enableOfflineMode>false</enableOfflineMode>
+
+        <!-- USE THUMBNAIL FOR BASE64 SCREENSHOTS -->
+        <!-- MAY SLOWDOWN VIEWING OF REPORT -->
+        <thumbnailForBase64>true</thumbnailForBase64>
+
+        <!-- TITLE OF THE DOCUMENT -->
+        <documentTitle>Automation Report</documentTitle>
+
+        <!-- REPORT NAME DISPLAYED AT TOP-NAV -->
+        <reportName>Automation Run</reportName>
+
+        <!--TIMESTAMP FORMAT-->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <!--CUSTOM JAVASCRIPT-->
+        <scripts>
+            <![CDATA[$(document).ready(function(){
+
+            });
+            ]]>
+        </scripts>
+
+        <!-- CUSTOM STYLES -->
+        <styles>
+            <![CDATA[
+
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
